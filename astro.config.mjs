@@ -5,8 +5,7 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-    site: 'https://SandunMunasinghe20.github.io', 
-    base: '/dev-nexus-hub',
+    site: 'https://nexus-architecture-hub.github.io', 
     
     integrations: [
         sitemap(),
