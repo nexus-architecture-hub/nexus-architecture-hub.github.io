@@ -1,0 +1,44 @@
+﻿name: Deploy Static SEO Engine to Pages
+
+on:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build_and_deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node Runtime Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Architecture Dependencies
+        run: npm ci
+
+      - name: Compile Optimized Static Files
+        run: npm run build
+
+      - name: Configure GitHub Pages Deployment Artifact
+        uses: actions/configure-pages@v4
+
+      - name: Bundle Build Directory
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+      - name: Deploy Live Sandbox to GitHub Pages CDN
+        id: deployment
+        uses: actions/deploy-pages@v4
