@@ -10,4 +10,4 @@ Building intelligent tools requires managing physical resource limitations just 
 * **Hybrid Classification Architectures:** Merging tree-based architectures with isolation metrics for anomaly discovery.
 
 Explore implementation guides:
-* [Optimizing CUDA Data Throughput](/dev-nexus-hub/machine-learning/cuda-performance/)
+* [Optimizing CUDA Data Throughput](/machine-learning/cuda-performance)

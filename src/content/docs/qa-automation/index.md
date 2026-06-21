@@ -10,4 +10,4 @@ Automated testing is the defensive wall of continuous integration pipelines. Thi
 * **Isolated Environment Testing:** Orchestrating headless test suites inside lightweight multi-stage environments.
 
 Explore active blueprints:
-* [Resolving Ant Design UI Locator Conflicts via Playwright](/dev-nexus-hub/qa-automation/locator-conflicts/)
+* [Resolving Ant Design UI Locator Conflicts via Playwright](/qa-automation/locator-conflicts)

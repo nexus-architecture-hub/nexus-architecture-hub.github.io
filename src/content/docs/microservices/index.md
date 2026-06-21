@@ -11,5 +11,5 @@ Distributed microservices demand robust decoupled design choices to scale seamle
 * **Distributed State Management:** Leveraging low-latency in-memory data structures to shield your persistent database layer from recurring read spikes.
 
 Select a technical blueprint from the sidebar or click below to begin:
-* [Asynchronous Kafka Migration](/dev-nexus-hub/microservices/kafka-migration/)
-* [Distributed In-Memory Redis Caching](/dev-nexus-hub/microservices/redis-caching/)
+* [Asynchronous Kafka Migration](/microservices/kafka-migration)
+* [Distributed In-Memory Redis Caching](/microservices/redis-caching)

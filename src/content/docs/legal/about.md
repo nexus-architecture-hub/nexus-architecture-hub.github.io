@@ -11,5 +11,4 @@ The technical resources found across this platform are compiled from direct, han
 * **Backend Architectures:** Designing asynchronous communication frameworks using Java 25, Spring Boot 4.0.5, Apache Kafka, and Redis caching.
 * **Automation Engineering:** Scaling automated UI and system integration test runners utilizing Playwright Page Object Models within enterprise Docker container lifecycles.
 * **Machine Learning Infrastructure:** Developing hybrid anomaly detection systems and tuning execution parameters to extract peak CUDA execution speeds from mid-tier GPU architectures.
-
-You can verify active development frameworks, source repositories, and project timelines directly via my [GitHub Profile](https://github.com/SandunMunasinghe20).
+.
